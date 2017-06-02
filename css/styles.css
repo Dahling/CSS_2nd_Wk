@@ -1,0 +1,285 @@
+
+/* WIREFRAME TESTING */
+
+/* This section will create dashed borders around all elements, uncomment the below code when building layout */
+
+
+*:not(body):not(html) {
+  /*box-sizing:border-box;
+  border:1px dashed #000;*/
+}
+
+/* End for testing */
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, a:hover, a:visited {
+    color: #3367d6;
+    outline: medium none;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #757575;
+  font-family: Roboto,sans-serif;
+  line-height: 1.6;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  width: 97%;
+  margin: 0 auto;
+  /*background-color: red;*/
+  height: 500px;
+  position: relative;
+}
+
+.topContainer {
+  background-color: #f5f5f5;
+}
+
+.tools {
+  height: 350px;
+}
+
+.dive {
+  height: 150px;
+}
+
+.toolsBtn {
+  text-align: center;
+  clear: both;
+  z-index: 999234234234234;
+  height: 100px;
+}
+
+.seeAllToolsBtn {
+  text-align: center;
+  padding: 15px;
+  border-radius: 2px;
+  background-color: #3367d6;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: ;
+  display: inline-block;
+  border: 0 none;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.seeAllToolsBtn:hover {
+  background-color: #4285f4;
+}
+
+.bottom {
+  margin-top: 50px;
+  padding-top: 50px;
+  background-color: #3367d6;
+  color: white;
+  width: 100%;
+  box-shadow: none;
+  border: 0px solid transparent;
+}
+
+.bottomContainer {
+  background-color: #3367d6;
+}
+
+
+
+/* Clearfix */
+
+.clearfix {
+content: "";
+display: table;
+clear: both;
+}
+
+
+.navbar-header {
+  position: relative;
+  /*padding-top: .625rem;
+  padding-bottom: .625rem;*/
+  font-size: 23px;
+  font-weight: 100;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+
+}
+
+.navbar-brand {
+  font-size: 25px;
+  line-height: 23px;
+  padding-left: 0px;
+  height: 55px;
+}
+.navbar-default .navbar-nav > li > a {
+  cursor: pointer;
+  /*display: inline-flex;*/
+  font-size: 17px;
+  align-items: center;
+}
+
+.caret::before {
+  /*right: 0.625rem;
+  transform: rotate(45deg);
+  height: 0.5rem;
+  position: absolute;
+  transition: transform 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;
+  color: #424242;
+  height: 0.625rem;
+  margin-left: 0.375rem;
+  margin-top: 0.125rem;
+  position: relative;
+  width: 1.4375rem;*/
+}
+
+.caret::after {
+  /*right: 0.875rem;
+  transform: rotate(-45deg);
+  color: #424242;*/
+}
+
+.content {
+  margin-top: 90px;
+}
+
+.contentHeader1, .contentHeader2, .contentHeader3 {
+font-weight: 300;
+margin-bottom: 2.5rem;
+color: #424242;
+display: block;
+padding-top: 50px;
+}
+
+/*.contentHeader2 {
+font-weight: 300;
+margin-bottom: 2.5rem;
+color: #424242;
+display: block;
+}*/
+
+h2 {
+    font-size: 2.9375rem;
+    font-weight: 300;
+}
+
+.image {
+  background-size: cover;
+  position: relative;
+  background-position: 50% center;
+}
+
+.pic1Quote {
+  position: absolute;
+  line-height: 1.4;
+  font-weight: 400;
+  color: white;
+  top: 65%;
+  left: 8%;
+}
+
+.pic6Quote {
+  position: absolute;
+  line-height: 1.4;
+  font-weight: 400;
+  color: white;
+  top: 45%;
+  left: 12%;
+}
+
+p {
+  line-height: 1.4;
+  font-weight: 800;
+}
+
+.col-sm-12, .col-md-6, .col-lg-6, .col-sm-6, .col-md-3, .col-lg-3 {
+  /*box-shadow: 2px 2px 2px 2px #f5f5f5;*/
+}
+
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: transparent;
+}
+
+.search-btn {
+  background-color: transparent;
+  border: 1px solid transparent;
+  box-shadow: none;
+  float: right;
+  height: 2em;
+  margin-left: 10px;
+  margin-right: 0px;
+  margin-top: 12px;
+  width: 2em;
+  background-image: url("../img/search.png");
+  background-repeat: no-repeat;
+}
+
+.leftSide {
+  text-align: left;
+  margin-left: 100px;
+  width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1001px) {
+
+
+}
+
+@media only screen and (min-width: 601px) {
+
+
+}
