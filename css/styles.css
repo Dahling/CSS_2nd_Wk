@@ -110,11 +110,14 @@ body {
   border-bottom: 1px solid white;
   padding-top: 20px;
   padding-bottom: 20px;
+  width: 100%;
+}
+.bottomBorder::after {
+
 }
 
 .bottomContainer {
   background-color: #3367d6;
-  border-bottom: 1px solid white;
   margin-bottom: 100px;
   height: 350px;
 }
@@ -140,11 +143,27 @@ body {
   display: inline;
   color: white;
   height: 100px;
+  width: 120%;
+  padding-top: 20px;
 }
 
 .bottomLinks li a {
   color: white;
+  display: inline;
+}
 
+/*.bottomLinks ul {
+  display: inline;
+}*/
+
+.bottomLinks li {
+  display: inline;
+  padding-right: 1%;
+}
+
+.google {
+  font-size: 20px;
+  font-weight: 600;
 }
 
 
