@@ -51,7 +51,7 @@ body {
   width: 97%;
   margin: 0 auto;
   /*background-color: red;*/
-  height: 500px;
+  /*height: 500px;*/
   position: relative;
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 .tools {
-  height: 350px;
+  /*height: 350px;*/
 }
 
 .dive {
@@ -119,7 +119,7 @@ body {
 .bottomContainer {
   background-color: #3367d6;
   margin-bottom: 100px;
-  height: 350px;
+  /*height: 350px;*/
 }
 
 .subscribeButton {
@@ -143,7 +143,7 @@ body {
   display: inline;
   color: white;
   height: 100px;
-  width: 120%;
+  width: 100%;
   padding-top: 20px;
 }
 
@@ -332,11 +332,15 @@ p {
 
 
 
-
+@media only screen and (max-width: 600px) {
+  .navbar-toggle {
+    float: left;
+  }
+}
 
 
 @media only screen and (min-width: 1001px) {
-
+.navbar-toggle
 
 }
 
