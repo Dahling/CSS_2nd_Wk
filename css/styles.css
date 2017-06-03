@@ -375,7 +375,9 @@ p {
 
 
 @media only screen and (min-width: 1001px) {
-.navbar-toggle
+  .navbar-toggle {
+    float: right;
+  }
 
 }
 
