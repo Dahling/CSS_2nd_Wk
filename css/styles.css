@@ -308,6 +308,34 @@ p {
 
 }
 
+.form-control {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: transparent;
+    background-image: none;
+    border-color: currentcolor currentcolor white;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    box-shadow: none;
+    border-radius: 0px;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+
+.form {
+  width: 75%;
+  margin: auto;
+}
+
 
 
 
@@ -336,6 +364,13 @@ p {
   .navbar-toggle {
     float: left;
   }
+  .contentHeader1, .contentHeader2, .contentHeader3 {
+    color: #424242;
+    display: block;
+    font-weight: 300;
+    margin-bottom: 2.5rem;
+    padding-top: 0px;
+}
 }
 
 
