@@ -377,7 +377,11 @@ p {
   .navbar-toggle {
     float: left;
   }
-  .contentHeader1, .contentHeader2, .contentHeader3 {
+  .contentHeader1 {
+    display: none;
+    padding-top: 0px;
+  }
+  .contentHeader2, .contentHeader3 {
     color: #424242;
     display: block;
     font-weight: 300;
