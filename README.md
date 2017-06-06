@@ -34,6 +34,7 @@ _If you have any tips or tricks, groovy: SweetlySurprised@gmail.com_
 ## Technologies Used
 
 _HTML & CSS_
+_Bootstrap_
 
 ### License
 
